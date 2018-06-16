@@ -14,18 +14,26 @@ background-color:#ac3737;
 height:40px;
 overflow: hidden;
 width:100%;
+position:fixed;
 }
 .navbar i {
 color:white;
 float:right;
 margin-right:20px;
 margin-top:6px;
+
 }
 .nav-navbar{
 background-color:#23385e;
 height:45px;
 color:white;
 margin-top:0px;
+position:fixed;
+    margin-bottom: 0px;
+    margin-top: 40px;
+    margin-right: 0px;
+    height: 45px;
+    width: 1200px;
 }
 .nav-navbar li{
   display: inline-flex;
@@ -47,6 +55,7 @@ text-decoration: none;
 .images{
 width:100%;
 height:300px;
+z-index:-1;
 }
 .event{
 background-color:white;

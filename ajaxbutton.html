@@ -1,0 +1,31 @@
+<!DOCKTYPE html>
+<html>
+<head>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+<script>
+$(document).ready(function(){
+
+var data=0;
+$("#submit-btn").click(function(){
+data++;
+$.ajax({
+type:'GET',
+url:'index',
+data:data,
+success:function(data){console.log(data)} 
+})
+})
+
+});
+
+</script>
+
+</head>
+<body>
+<button  id='submit-btn' type='submit' class='btn btn-default' vlaue='submit'/>submit</button>
+</body>
+</html>
